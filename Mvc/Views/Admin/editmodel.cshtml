@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Admin";
+}
+<div class="text-center">
+    <h1 class="display-4">Edit Model</h1>
+
+    <form id="form1" method="post" action="/Admin/UpdateModel">
+
+        <input name="Id" type="hidden" value="@ViewBag.model.Data.Id" required />
+        <div>
+            <label for="Name">Name</label>
+            <input name="Name" type="text" value="@ViewBag.model.Data.Name" required />
+        </div>
+        <div>
+            <label for="Abrv">Abrv</label>
+            <input name="Abrv" type="text" value="@ViewBag.model.Data.Abrv" required />
+        </div>
+        <div>
+            <select name="MakeId">
+                @foreach (var make in ViewBag.make.Data)
+                {
+
+                    @if (@make.Id == @ViewBag.model.Data.MakeId)
+                    {
+                        <option value=@make.Id selected>@make.Name</option>
+                    }
+                    else
+                    {
+                        <option value=@make.Id>@make.Name</option>
+                    }
+                }
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Submit" />
+        </div>
+    </form>
+
+</div>

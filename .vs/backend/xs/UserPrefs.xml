@@ -1,0 +1,93 @@
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mvc/Controllers/AdminController.cs">
+    <Files>
+      <File FileName="Service/Controllers/WeatherForecastController.cs" />
+      <File FileName="Service/WeatherForecast.cs" />
+      <File FileName="Service/Properties/launchSettings.json" />
+      <File FileName="Mvc/Controllers/HomeController.cs" />
+      <File FileName="Mvc/Views/Home/Index.cshtml" />
+      <File FileName="Service/appsettings.json" />
+      <File FileName="Mvc/appsettings.json" />
+      <File FileName="Service/Data/DataContext.cs" />
+      <File FileName="Service/Models/Model.cs" />
+      <File FileName="Service/Models/Make.cs" />
+      <File FileName="Service/Services/VehicleService.cs" />
+      <File FileName="Service/Services/IVehicleService.cs" />
+      <File FileName="Service/AutoMapperProfiles.cs" />
+      <File FileName="Service/Controllers/ServiceResponse.cs" />
+      <File FileName="Service/Migrations/20230721113901_Make.cs" />
+      <File FileName="Service/Migrations/20230721113910_Model.cs" />
+      <File FileName="Service/Dtos/Make/AddMakeDto.cs" />
+      <File FileName="Service/Dtos/Make/GetMakeDto.cs" />
+      <File FileName="Service/Controllers/VehicleController.cs" />
+      <File FileName="Service/Dtos/Make/UpdateMakeDto.cs" />
+      <File FileName="Service/Dtos/Model/GetModelDto.cs" />
+      <File FileName="Mvc/Models/ErrorViewModel.cs" />
+      <File FileName="Mvc/Models/Make.cs" Line="1" Column="1" />
+      <File FileName="Mvc/Models/Model.cs" />
+      <File FileName="Mvc/Controllers/AdminController.cs" Line="63" Column="13" />
+      <File FileName="Mvc/Views/Home/Privacy.cshtml" />
+      <File FileName="Mvc/Models/ServiceResponse.cs" />
+      <File FileName="Mvc/Views/_ViewStart.cshtml" />
+      <File FileName="Mvc/Views/_ViewImports.cshtml" />
+      <File FileName="Mvc/Views/Shared/_Layout.cshtml" />
+      <File FileName="Service/Dtos/Model/UpdateModelDto.cs" />
+      <File FileName="Service/Dtos/Model/AddModelDto.cs" />
+      <File FileName="Mvc/Views/Admin/model.cshtml" />
+      <File FileName="Mvc/Views/Admin/editmake.cshtml" />
+      <File FileName="Mvc/Views/Admin/make.cshtml" />
+      <File FileName="Mvc/Views/Admin/editmodel.cshtml" />
+      <File FileName="Mvc/Models/SearchMake.cs" />
+      <File FileName="Service/Dtos/Make/SearchMake.cs" />
+      <File FileName="Service/Program.cs" />
+      <File FileName="Mvc/Models/SearchModel.cs" />
+      <File FileName="Service/Dtos/Model/SearchModel.cs" />
+      <File FileName="Mvc/Program.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="backend" expanded="True">
+            <Node name="Mvc" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="AdminController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Admin" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Service" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Dtos" expanded="True">
+                <Node name="Make" expanded="True" />
+                <Node name="Model" expanded="True" />
+              </Node>
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{5DC38F12-2A0B-4752-A72C-04DD8AB51654}" ItemName="Mvc" ConfigurationId="https" />
+        <StartupItem ItemId="{AF9AC2A3-5E5F-4D48-A4F4-A6B2BFA8C203}" ItemName="Service" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.Mvc PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Service PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

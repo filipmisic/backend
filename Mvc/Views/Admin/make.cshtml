@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Admin";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Manufacturer</h1>
+
+    <br>
+    <h4>Create Manufacturer</h4>
+
+    <form id="formCreate" method="post" action="/Admin/CreateMake">
+        <div>
+            <label for="Name">Name</label>
+            <input name="Name" type="text" required />
+        </div>
+        <div>
+            <label for="Abrv">Abrv</label>
+            <input name="Abrv" type="text" required />
+        </div>
+        <div>
+            <input type="submit" value="Create" />
+        </div>
+    </form>
+
+    <form id="formSearch" method="post" action="/Admin/Make">
+        <div>
+            <label for="Name">Search name:</label>
+            <input name="Name" type="text"/>
+            <select name="Order">
+                <option value="asc">A to Z</option>
+                <option value="desc">Z to A</option>
+            </select>
+
+            <input type="submit" value="Search" />
+        </div>
+    </form>
+
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Abrv</th>
+            <th>Actions</th>
+        </tr>
+        @foreach (var make in ViewBag.make.Data)
+        {
+            <tr>
+                <td>
+                    @make.Name
+                </td>
+                <td>
+                    @make.Abrv
+                </td>
+                <td>
+                    <a asp-controller="Admin" asp-action="EditMake" asp-route-id="@make.Id">Edit</a>
+                    <a asp-controller="Admin" asp-action="DeleteMake" asp-route-id="@make.Id">Delete</a>
+                <td>
+            </tr>
+        }
+    </table>
+
+</div>

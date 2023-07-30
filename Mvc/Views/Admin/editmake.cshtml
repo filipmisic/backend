@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Admin";
+}
+<div class="text-center">
+    <h1 class="display-4">Edit Manufacturer</h1>
+
+    <form id="form1" method="post" action="/Admin/UpdateMake">
+
+        <input name="Id" type="hidden" value="@ViewBag.make.Data.Id" required  />
+        <div>
+            <label for="Name">Name</label>
+            <input name="Name" type="text" value="@ViewBag.make.Data.Name" required />
+        </div>
+        <div>
+            <label for="Abrv">Abrv</label>
+            <input name="Abrv" type="text" value="@ViewBag.make.Data.Abrv" required />
+        </div>
+        <div>
+            <input type="submit" value="Submit" />
+        </div>
+    </form>
+
+</div>
